@@ -2,8 +2,8 @@
 
 un sites internet qui propose au utilisateurs des recettes facile
 
-page d'accueil: contient la presentation du site
-page de recette: contient la liste des recettes vous pouvez cliquer sur voir le detail pour voir le detail de la recette
+page d'accueil: contient la presentation du site,
+page de recette: contient la liste des recettes vous pouvez cliquer sur voir le detail pour voir le detail de la recette,
 page de contact:contient une formulaire de contact
 
 
@@ -22,7 +22,7 @@ page de contact:contient une formulaire de contact
  
 ### le fichier . env 
 PORT=8081
-API_KEY=votre keyAPI
+API_KEY=(votre keyAPI)
 ### Le fichier config.js 
 const dotenv = require("dotenv");
 dotenv.config();
