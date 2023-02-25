@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>tp1_SPA</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- En-tête de la barre de navigation -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Afficher/masquer la navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">tp1 SPA</a>
+            </div>
+            <!-- Liens de la barre de navigation -->
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li ><a href="/"  data-link>Accueil</a></li>
+                    <li><a href="/recettes"  data-link>Recettes</a></li>
+                    <li><a href="/contact" data-link>Contact</a></li>
+                </ul>
+                
+        
+        
+                
+            </div>
+        </div>
+    </nav>
+<div id="app"></div>
+<script type="module" src="/static/js/index.js"></script>
+    <!-- Inclure les fichiers JavaScript de Bootstrap à la fin de la page -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
